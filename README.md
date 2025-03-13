@@ -45,7 +45,7 @@ It contains **time-series sensor readings** with binary anomaly labels, helping 
 - **Standardized sensor readings** (MinMaxScaler).
 - **Applied feature engineering** (lag features, rolling averages).
 ---
--- ** To successfully implement and evaluate One-Class SVM, Autoencoder, and Isolation Forest within a single script, careful structuring and variable management were essential. To maintain reproducibility and fairness in model evaluation, all key variables were reset before each model execution. 
+-- ** To successfully implement and evaluate One-Class SVM, Autoencoder, and Isolation Forest within a single script, careful structuring and variable management were essential. To maintain reproducibility and fairness in model evaluation, all key variables were reset before each model execution.  Final-report.pdf has all the details. 
 
 ## 🔍 Modeling Approaches Used
 ### **1️⃣ Isolation Forest (IF)**
