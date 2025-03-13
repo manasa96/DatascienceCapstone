@@ -1,0 +1,4 @@
+## How to Run the Code 
+pip install pandas numpy matplotlib seaborn openpyxl scikit-learn
+pip install tensorflow joblib
+python notebooks/Main-script.py
