@@ -62,23 +62,25 @@ It contains **time-series sensor readings** with binary anomaly labels, helping 
 
 ## 📂 File Structure
 AnomaData_Project
- ├── AnomaData.xlsx       # Original dataset
- ├── README.md           # Dataset documentation
- ├── Visuals        # visualizations - screenshots of visual charts - EDA and Results of each model.
- ├── notebooks       # Jupyter notebooks for EDA and training
+├── AnomaData.xlsx       # Original dataset
+├── README.md           # Dataset documentation
+├── Visuals        # visualizations - screenshots of visual charts - EDA and Results of each model.
+├── notebooks       # Jupyter notebooks for EDA and training
 	Main-script.py
- ├── models              # Serialized models and logs
+├── models              # Serialized models and logs
 	├── autoencoder_model.h5  # Trained Autoencoder model
 	├── isolation_forest_model.pkl # Trained Isolation Forest model
 
  	├── optimized_isolation_forest.pkl # Trained and optimized Isolation Forest model
-├── one_class_svm_model.pkl # Trained SVM Model
+    ├── one_class_svm_model.pkl # Trained SVM Model
 
- ├── data                # Processed dataset versions
+├── data                # Processed dataset versions
 	├── train_data.xlsx
 	├── test_data.xlsx
 	├── processed_data.xlsx
- ├── requirements.txt     # Python dependencies
+├── requirements.txt     # Python dependencies
+├── Final-report.pdf
+
 
 ## How to Run the Code (A file with all the dependencies - requirements.txt is attached to run the code) 
 pip install pandas numpy matplotlib seaborn openpyxl scikit-learn
